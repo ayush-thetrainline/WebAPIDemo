@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250126210533_CleanArchitectureDatabaseCreation")]
-    partial class CleanArchitectureDatabaseCreation
+    [Migration("20250323130011_WebAPIDemoDbCreation")]
+    partial class WebAPIDemoDbCreation
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
